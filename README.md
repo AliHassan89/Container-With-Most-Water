@@ -14,10 +14,10 @@ Given n non-negative integers a1, a2, ..., an, where each represents a point at 
 
 2. The idea is to start by storing line on 0'th index in a variable and line on i-1 index in another variable. 
 
-3. Calculate the area between the two lines and save them in a temporary variable. We can calculate the area by checking which line is smaller of the two, in case if start is smaller then end then we can write something like 
-area = start * (endIndex - startIndex)
-otherwise if end is smaller than start then
-area = end * (endIndex - startIndex);
+3. Calculate the area between the two lines and save them in a temporary variable. We can calculate the area by checking which line is smaller of the two, in case if start is smaller then end then we can write something like </br>
+area = start * (endIndex - startIndex)</br>
+otherwise if end is smaller than start then</br>
+area = end * (endIndex - startIndex);</br>
 
 4. Next we will lock the line whose height is greater and move the other one. e.g if height of start line is greater then we will lock it and decrement from the end.
 
